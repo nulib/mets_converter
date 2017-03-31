@@ -1,3 +1,84 @@
 #!/usr/bin/env ruby
 
 require 'mets_converter'
+require 'optparse'
+
+options = {}
+
+option_parser = OptionParser.new do |opts| # rubocop:disable Metrics/BlockLength
+  executable_name = File.basename($PROGRAM_NAME)
+  opts.banner = "Usage: #{executable_name} [options] input_file output_file_name"
+
+  opts.banner = <<-EOS
+  Convert a mets xml file into a yml file according to the Hathi Trust specifications for ingest
+  Usage: ruby #{executable_name} [options] input_file output_file_basename
+  Example usage: bundle exec ruby #{executable_name} --force --resolution="300" /cygdrive/e/books/limb_output/35556004429411/35556004429411.mets.xml meta
+  Example output: meta.yml
+  Options:
+  EOS
+
+  opts.on('--[no-]force',
+          'Overwrite existing files') do |force| # (1)
+    options[:force] = force
+  end
+
+  opts.on('--suprascan',
+          '"SupraScan Quartz A1" will override default "Kirtas APT 1200"') do
+    options[:suprascan] = true
+  end
+
+  opts.on('--resolution=resolution_integer',
+          'Enter numeric value of scanning resolution to override default 300') do |resolution|
+    options[:resolution] = resolution
+  end
+
+  opts.on('--scanning_order_rtl',
+          'Use if the scanning order is right-to-left to override default left-to-right') do
+    options[:scanning_order_rtl] = true
+  end
+
+  opts.on('--reading_order_rtl',
+          'Use if the reading order is right-to-left to override default left-to-right') do
+    options[:reading_order_rtl] = true
+  end
+end
+
+begin
+  $stdout.puts 'Parsing optional arguments...'
+  option_parser.parse!
+  if ARGV.length < 2
+    puts 'error: you must supply an input file and an output file name'
+    puts option_parser.help
+    exit 2
+  end
+rescue OptionParser::InvalidArgument => ex
+  $stderr.puts ex.message
+  $stderr.puts option_parser
+  exit 1
+end
+
+# set output file based on second command-line argument
+output_file_basename = ARGV[1]
+$stdout.puts "Building #{output_file_basename}.yml..."
+
+# create mets object from first command-line argument
+mets = MetsParser.new(ARGV[0])
+raise "The file #{ARGV[0]} does not contain valid XML" if mets.document.nil?
+# build yaml combining mets data and command-line options
+yaml = YamlBuilder.new(options, mets).build
+
+output_file = File.join(mets.input_file_location, "#{output_file_basename}.yml")
+
+if File.exist? output_file
+  if options[:force]
+    $stdout.puts "Overwriting #{output_file}"
+  else
+    $stderr.puts "#{output_file} already exists, use --force to overwrite"
+    exit 1
+  end
+end
+
+unless ENV['NO_RUN']
+  File.write(output_file, yaml)
+  $stdout.puts "Created #{output_file} successfully"
+end
