@@ -1,0 +1,257 @@
+capture_date: 2015-09-03T14:28:35-06:00
+scanner_make: Kirtas
+scanner_model: APT 1200
+scanner_user: "Northwestern University Library: Repository & Digital Curation"
+contone_resolution_dpi: 300
+image_compression_date: 2015-09-03T14:28:35-06:00
+image_compression_agent: northwestern
+image_compression_tool: ["LIMB v3.1.0.0"]
+scanning_order: left-to-right
+reading_order: left-to-right
+pagedata:
+    00000001.jp2: { label: "FRONT_COVER" }
+    00000007.jp2: { label: "TITLE" }
+    00000013.jp2: { orderlabel: "v", label: "PREFACE" }
+    00000014.jp2: { orderlabel: "vi" }
+    00000016.jp2: { orderlabel: "viii" }
+    00000017.jp2: { orderlabel: "ix" }
+    00000018.jp2: { orderlabel: "x" }
+    00000019.jp2: { orderlabel: "xi" }
+    00000020.jp2: { orderlabel: "xii" }
+    00000021.jp2: { orderlabel: "xiii" }
+    00000022.jp2: { orderlabel: "xiv" }
+    00000023.jp2: { orderlabel: "xv" }
+    00000024.jp2: { orderlabel: "xvi" }
+    00000025.jp2: { orderlabel: "xvii" }
+    00000027.jp2: { label: "TABLE_OF_CONTENTS" }
+    00000029.jp2: { orderlabel: "1", label: "FIRST_CONTENT_CHAPTER_START" }
+    00000030.jp2: { orderlabel: "2" }
+    00000031.jp2: { orderlabel: "3" }
+    00000032.jp2: { orderlabel: "4" }
+    00000033.jp2: { orderlabel: "5" }
+    00000034.jp2: { orderlabel: "6" }
+    00000035.jp2: { orderlabel: "7" }
+    00000036.jp2: { orderlabel: "8" }
+    00000037.jp2: { orderlabel: "9" }
+    00000038.jp2: { orderlabel: "10" }
+    00000039.jp2: { orderlabel: "11" }
+    00000040.jp2: { orderlabel: "12" }
+    00000041.jp2: { orderlabel: "13" }
+    00000042.jp2: { orderlabel: "14" }
+    00000043.jp2: { orderlabel: "15" }
+    00000044.jp2: { orderlabel: "16", label: "CHAPTER_START" }
+    00000045.jp2: { orderlabel: "17" }
+    00000046.jp2: { orderlabel: "18" }
+    00000047.jp2: { orderlabel: "19" }
+    00000048.jp2: { orderlabel: "20" }
+    00000049.jp2: { orderlabel: "21" }
+    00000050.jp2: { orderlabel: "22" }
+    00000051.jp2: { orderlabel: "23" }
+    00000052.jp2: { orderlabel: "24" }
+    00000053.jp2: { orderlabel: "25" }
+    00000054.jp2: { orderlabel: "26" }
+    00000055.jp2: { orderlabel: "27" }
+    00000056.jp2: { orderlabel: "28" }
+    00000057.jp2: { orderlabel: "29" }
+    00000058.jp2: { orderlabel: "30" }
+    00000059.jp2: { orderlabel: "31" }
+    00000060.jp2: { orderlabel: "32" }
+    00000061.jp2: { orderlabel: "33" }
+    00000062.jp2: { orderlabel: "34", label: "CHAPTER_START" }
+    00000063.jp2: { orderlabel: "35" }
+    00000064.jp2: { orderlabel: "36" }
+    00000065.jp2: { orderlabel: "37" }
+    00000066.jp2: { orderlabel: "38" }
+    00000067.jp2: { orderlabel: "39" }
+    00000068.jp2: { orderlabel: "40" }
+    00000069.jp2: { orderlabel: "41" }
+    00000070.jp2: { orderlabel: "42" }
+    00000071.jp2: { orderlabel: "43" }
+    00000072.jp2: { orderlabel: "44" }
+    00000073.jp2: { orderlabel: "45" }
+    00000074.jp2: { orderlabel: "46" }
+    00000075.jp2: { orderlabel: "47" }
+    00000076.jp2: { orderlabel: "48" }
+    00000077.jp2: { orderlabel: "49" }
+    00000078.jp2: { orderlabel: "50" }
+    00000079.jp2: { orderlabel: "51" }
+    00000080.jp2: { orderlabel: "52" }
+    00000081.jp2: { orderlabel: "53" }
+    00000082.jp2: { orderlabel: "54", label: "CHAPTER_START" }
+    00000083.jp2: { orderlabel: "55" }
+    00000084.jp2: { orderlabel: "56" }
+    00000085.jp2: { orderlabel: "57" }
+    00000086.jp2: { orderlabel: "58" }
+    00000087.jp2: { orderlabel: "59" }
+    00000088.jp2: { orderlabel: "60" }
+    00000089.jp2: { orderlabel: "61" }
+    00000090.jp2: { orderlabel: "62" }
+    00000091.jp2: { orderlabel: "63" }
+    00000092.jp2: { orderlabel: "64" }
+    00000093.jp2: { orderlabel: "65" }
+    00000094.jp2: { orderlabel: "66" }
+    00000095.jp2: { orderlabel: "67" }
+    00000096.jp2: { orderlabel: "68", label: "CHAPTER_START" }
+    00000097.jp2: { orderlabel: "69" }
+    00000098.jp2: { orderlabel: "70" }
+    00000099.jp2: { orderlabel: "71" }
+    00000100.jp2: { orderlabel: "72" }
+    00000101.jp2: { orderlabel: "73" }
+    00000102.jp2: { orderlabel: "74" }
+    00000103.jp2: { orderlabel: "75" }
+    00000104.jp2: { orderlabel: "76" }
+    00000105.jp2: { orderlabel: "77" }
+    00000106.jp2: { orderlabel: "78" }
+    00000107.jp2: { orderlabel: "79" }
+    00000108.jp2: { orderlabel: "80" }
+    00000109.jp2: { orderlabel: "81" }
+    00000110.jp2: { orderlabel: "82" }
+    00000111.jp2: { orderlabel: "83" }
+    00000112.jp2: { orderlabel: "84" }
+    00000113.jp2: { orderlabel: "85" }
+    00000114.jp2: { orderlabel: "86" }
+    00000115.jp2: { orderlabel: "87" }
+    00000116.jp2: { orderlabel: "88" }
+    00000117.jp2: { orderlabel: "89" }
+    00000118.jp2: { orderlabel: "90" }
+    00000119.jp2: { orderlabel: "91" }
+    00000120.jp2: { orderlabel: "92" }
+    00000121.jp2: { orderlabel: "93", label: "CHAPTER_START" }
+    00000122.jp2: { orderlabel: "94" }
+    00000123.jp2: { orderlabel: "95" }
+    00000124.jp2: { orderlabel: "96" }
+    00000125.jp2: { orderlabel: "97" }
+    00000126.jp2: { orderlabel: "98" }
+    00000127.jp2: { orderlabel: "99" }
+    00000128.jp2: { orderlabel: "100" }
+    00000129.jp2: { orderlabel: "101" }
+    00000130.jp2: { orderlabel: "102" }
+    00000131.jp2: { orderlabel: "103" }
+    00000132.jp2: { orderlabel: "104" }
+    00000133.jp2: { orderlabel: "105" }
+    00000134.jp2: { orderlabel: "106" }
+    00000135.jp2: { orderlabel: "107" }
+    00000136.jp2: { orderlabel: "108" }
+    00000137.jp2: { orderlabel: "109" }
+    00000138.jp2: { orderlabel: "110" }
+    00000139.jp2: { orderlabel: "111" }
+    00000140.jp2: { orderlabel: "112", label: "CHAPTER_START" }
+    00000141.jp2: { orderlabel: "113" }
+    00000142.jp2: { orderlabel: "114" }
+    00000143.jp2: { orderlabel: "115" }
+    00000144.jp2: { orderlabel: "116" }
+    00000145.jp2: { orderlabel: "117" }
+    00000146.jp2: { orderlabel: "118" }
+    00000147.jp2: { orderlabel: "119" }
+    00000148.jp2: { orderlabel: "120" }
+    00000149.jp2: { orderlabel: "121" }
+    00000150.jp2: { orderlabel: "122" }
+    00000151.jp2: { orderlabel: "123" }
+    00000152.jp2: { orderlabel: "124" }
+    00000153.jp2: { orderlabel: "125" }
+    00000154.jp2: { orderlabel: "126" }
+    00000155.jp2: { orderlabel: "127" }
+    00000156.jp2: { orderlabel: "128" }
+    00000157.jp2: { orderlabel: "129" }
+    00000158.jp2: { orderlabel: "130", label: "CHAPTER_START" }
+    00000159.jp2: { orderlabel: "131" }
+    00000160.jp2: { orderlabel: "132" }
+    00000161.jp2: { orderlabel: "133" }
+    00000162.jp2: { orderlabel: "134" }
+    00000163.jp2: { orderlabel: "135" }
+    00000164.jp2: { orderlabel: "136" }
+    00000165.jp2: { orderlabel: "137" }
+    00000166.jp2: { orderlabel: "138" }
+    00000167.jp2: { orderlabel: "139" }
+    00000168.jp2: { orderlabel: "140" }
+    00000169.jp2: { orderlabel: "141" }
+    00000170.jp2: { orderlabel: "142" }
+    00000171.jp2: { orderlabel: "143" }
+    00000172.jp2: { orderlabel: "144" }
+    00000173.jp2: { orderlabel: "145" }
+    00000174.jp2: { orderlabel: "146" }
+    00000175.jp2: { orderlabel: "147" }
+    00000176.jp2: { orderlabel: "148" }
+    00000177.jp2: { orderlabel: "149", label: "CHAPTER_START" }
+    00000178.jp2: { orderlabel: "150" }
+    00000179.jp2: { orderlabel: "151" }
+    00000180.jp2: { orderlabel: "152" }
+    00000181.jp2: { orderlabel: "153" }
+    00000182.jp2: { orderlabel: "154" }
+    00000183.jp2: { orderlabel: "155" }
+    00000184.jp2: { orderlabel: "156" }
+    00000185.jp2: { orderlabel: "157" }
+    00000186.jp2: { orderlabel: "158" }
+    00000187.jp2: { orderlabel: "159" }
+    00000188.jp2: { orderlabel: "160" }
+    00000189.jp2: { orderlabel: "161" }
+    00000190.jp2: { orderlabel: "162" }
+    00000191.jp2: { orderlabel: "163" }
+    00000192.jp2: { orderlabel: "164" }
+    00000193.jp2: { orderlabel: "165" }
+    00000194.jp2: { orderlabel: "166" }
+    00000195.jp2: { orderlabel: "167" }
+    00000196.jp2: { orderlabel: "168" }
+    00000197.jp2: { orderlabel: "169" }
+    00000198.jp2: { orderlabel: "170" }
+    00000199.jp2: { orderlabel: "171" }
+    00000200.jp2: { orderlabel: "172" }
+    00000201.jp2: { orderlabel: "173" }
+    00000202.jp2: { orderlabel: "174" }
+    00000203.jp2: { orderlabel: "175", label: "CHAPTER_START" }
+    00000204.jp2: { orderlabel: "176" }
+    00000205.jp2: { orderlabel: "177" }
+    00000206.jp2: { orderlabel: "178" }
+    00000207.jp2: { orderlabel: "179" }
+    00000208.jp2: { orderlabel: "180" }
+    00000209.jp2: { orderlabel: "181" }
+    00000210.jp2: { orderlabel: "182" }
+    00000211.jp2: { orderlabel: "183" }
+    00000212.jp2: { orderlabel: "184" }
+    00000213.jp2: { orderlabel: "185" }
+    00000214.jp2: { orderlabel: "186" }
+    00000215.jp2: { orderlabel: "187" }
+    00000216.jp2: { orderlabel: "188" }
+    00000217.jp2: { orderlabel: "189" }
+    00000218.jp2: { orderlabel: "190" }
+    00000219.jp2: { orderlabel: "191" }
+    00000220.jp2: { orderlabel: "192" }
+    00000221.jp2: { orderlabel: "193" }
+    00000222.jp2: { orderlabel: "194" }
+    00000223.jp2: { orderlabel: "195", label: "CHAPTER_START" }
+    00000224.jp2: { orderlabel: "196" }
+    00000225.jp2: { orderlabel: "197" }
+    00000226.jp2: { orderlabel: "198" }
+    00000227.jp2: { orderlabel: "199" }
+    00000228.jp2: { orderlabel: "200" }
+    00000229.jp2: { orderlabel: "201" }
+    00000230.jp2: { orderlabel: "202" }
+    00000231.jp2: { orderlabel: "203" }
+    00000232.jp2: { orderlabel: "204" }
+    00000233.jp2: { orderlabel: "205" }
+    00000234.jp2: { orderlabel: "206" }
+    00000235.jp2: { orderlabel: "207" }
+    00000236.jp2: { orderlabel: "208" }
+    00000237.jp2: { orderlabel: "209" }
+    00000238.jp2: { orderlabel: "210" }
+    00000239.jp2: { orderlabel: "211", label: "REFERENCES" }
+    00000240.jp2: { orderlabel: "212" }
+    00000241.jp2: { orderlabel: "213" }
+    00000242.jp2: { orderlabel: "214" }
+    00000243.jp2: { orderlabel: "215" }
+    00000244.jp2: { orderlabel: "216" }
+    00000245.jp2: { orderlabel: "217" }
+    00000246.jp2: { orderlabel: "218" }
+    00000247.jp2: { orderlabel: "219" }
+    00000248.jp2: { orderlabel: "220" }
+    00000249.jp2: { orderlabel: "221" }
+    00000250.jp2: { orderlabel: "222" }
+    00000251.jp2: { orderlabel: "223" }
+    00000252.jp2: { orderlabel: "224" }
+    00000253.jp2: { label: "INDEX" }
+    00000255.jp2: { orderlabel: "227" }
+    00000256.jp2: { orderlabel: "228" }
+    00000257.jp2: { orderlabel: "229" }
+    00000258.jp2: { orderlabel: "230" }
+    00000259.jp2: { orderlabel: "231" }
+    00000268.jp2: { label: "BACK_COVER" }
