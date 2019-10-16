@@ -11,8 +11,8 @@ option_parser = OptionParser.new do |opts| # rubocop:disable Metrics/BlockLength
 
   opts.banner = <<-EOS
   Convert a mets xml file into a yml file according to the Hathi Trust specifications for ingest
-  Usage: ruby #{executable_name} [options] input_file output_file_basename
-  Example usage: bundle exec ruby #{executable_name} --force --resolution="300" /cygdrive/e/books/limb_output/35556004429411/35556004429411.mets.xml meta
+  Usage: #{executable_name} [options] input_file output_file_basename
+  Example usage: #{executable_name} --force --resolution="300" /cygdrive/e/books/limb_output/35556004429411/35556004429411.mets.xml meta
   Example output: meta.yml
   Options:
   EOS
@@ -62,11 +62,11 @@ output_file_basename = ARGV[1]
 $stdout.puts "Building #{output_file_basename}.yml..."
 
 # create mets object from first command-line argument
-mets = MetsParser.new(ARGV[0])
+mets = MetsConverter::MetsParser.new(ARGV[0])
 raise "The file #{ARGV[0]} does not contain valid XML" if mets.document.nil?
-# build yaml combining mets data and command-line options
-yaml = YamlBuilder.new(options, mets).build
 
+# build yaml combining mets data and command-line options
+yaml = MetsConverter::YamlBuilder.new(mets, options).build
 output_file = File.join(mets.input_file_location, "#{output_file_basename}.yml")
 
 if File.exist? output_file

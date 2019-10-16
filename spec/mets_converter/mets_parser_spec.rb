@@ -1,4 +1,6 @@
-RSpec.describe MetsParser do
+require 'spec_helper'
+
+RSpec.describe MetsConverter::MetsParser do
   subject(:mets) { described_class.new('spec/fixtures/35556002332765.mets.xml') }
 
   describe '#initialize' do
