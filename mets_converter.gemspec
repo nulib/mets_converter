@@ -6,6 +6,7 @@ require 'mets_converter/version'
 Gem::Specification.new do |spec|
   spec.name          = 'mets_converter'
   spec.version       = MetsConverter::VERSION
+  spec.license       = 'Apache-2.0'
   spec.authors       = ['Brendan Quinn']
   spec.email         = ['brendan-quinn@northwestern.edu']
 
